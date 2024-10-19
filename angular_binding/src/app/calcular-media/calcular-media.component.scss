@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+/* Estilização geral */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.mb-3 {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f79866;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos labels e inputs */
+label {
+    font-family: "Lexend Deca", sans-serif;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #574955;
+}
+
+/* Estilização dos inputs */
+input[type="number"] {
+    font-family: "Lexend Deca", sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Efeito de foco nos inputs */
+input[type="number"]:focus {
+    outline: none;
+    border-color: #ff3700;
+    box-shadow: 0 0 5px rgba(206, 60, 2, 0.5);
+}
+
+/* Estilização do botão */
+button {
+    font-family: "Lexend Deca", sans-serif;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #e85810;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #e858108e;
+}
+
+/* Estilização da média e do resultado */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333151;
+}

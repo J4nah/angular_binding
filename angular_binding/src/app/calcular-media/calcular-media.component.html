@@ -1,0 +1,23 @@
+<div class="mb-3">
+    <h2>Calcular Média</h2>
+    <label>AC1:
+        <input class="form-control form-control-lg" [(ngModel)]="ac1" name="ac1" type="number" required min="0"
+            max="10">
+    </label>
+
+    <label>AC2:
+        <input class="form-control form-control-lg" [(ngModel)]="ac2" name="ac2" type="number" required min="0"
+            max="10">
+    </label>
+
+    <label>AF:
+        <input class="form-control form-control-lg" [(ngModel)]="af" name="af" type="number" required min="0" max="10">
+    </label>
+    <label>AG:
+        <input class="form-control form-control-lg" [(ngModel)]="ag" name="ag" type="number" required min="0" max="10">
+    </label>
+
+
+    <button class="btn btn-primary" type="submit" (click)="calcularMedia()">Calcular</button>
+    <p *ngIf="media !== null">Média: {{ media }} - {{ resultado }}</p>
+</div>

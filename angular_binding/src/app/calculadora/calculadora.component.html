@@ -1,0 +1,15 @@
+<div>
+    <h2>Calculadora</h2>
+    <input class="form-control form-control-lg" [(ngModel)]="num1" type="number" placeholder="Número 1">
+    <select [(ngModel)]="operacao">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input class="form-control form-control-lg" [(ngModel)]="num2" type="number" placeholder="Número 2">
+    <br>
+    <button (click)="calcular()">Calcular</button>
+    <input class="form-control form-control-lg" [value]="resultado" readonly>
+  </div>
+  
